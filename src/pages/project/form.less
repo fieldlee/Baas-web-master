@@ -1,0 +1,54 @@
+@import "../../assets/less/form";
+@import "../../assets/less/base/variables/colors";
+
+.projectFormContainer {
+  display: flex;
+  :global {
+    .ant-form-explain {
+      position: relative;
+      margin-left: 0;
+    }
+  }
+}
+
+.projectFormContainer .form {
+  flex: 1;
+}
+
+.projectBack {
+  display: inline-block;
+  margin-bottom: -10px;
+  font-size: 18px;
+  color: @text-blue;
+}
+
+.formItemChildContainer {
+  margin-left: 86px;
+}
+
+.formServer {
+  display: flex;
+  :global {
+    .ant-form-item {
+      height: 36px;
+      margin-right: 25px;
+    }
+    input[type="text"] {
+      width: 236px;
+    }
+  }
+}
+
+.formSep {
+  margin: 0 -30px;
+  padding: 14px 0 28px;
+  background-color: @bg-gray-light;
+}
+
+.btnSubmit {
+  display: block;
+  width: 200px;
+  height: 36px;
+  margin: 0 auto;
+  font-size: 16px;
+}

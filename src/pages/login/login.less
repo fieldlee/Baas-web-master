@@ -1,0 +1,33 @@
+@import "../../assets/less/base/variables/colors";
+@import "../../assets/less/form";
+.loginContainer {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/images/login.jpg) no-repeat 0 0;
+  :global {
+    .ant-form-explain {
+      margin-top: 0;
+    }
+  }
+}
+
+.login {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 470px;
+  height: 390px;
+  margin: -195px 0 0 -235px;
+  padding: 35px;
+  background-color: @bg-white;
+}
+
+.forgot {
+  float: right;
+}

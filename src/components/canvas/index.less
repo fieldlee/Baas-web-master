@@ -1,0 +1,37 @@
+.circle{
+	width: 114px;
+	text-align: center;
+	position: relative;
+}
+canvas{
+	display: block;
+	margin: 0;
+	position: absolute;
+	background: white;
+	left: 0;
+	top: 0;
+	padding: 3px;
+}
+.title{
+	margin-top: 118px;
+  color: #666666;
+}
+.per{
+	position: absolute;
+    z-index: 10;
+    margin: 52px 0 0 78px;
+}
+:global{
+	.canvas1{
+		z-index: 1;
+		border:1px solid #f2f2f2;
+		border-radius: 50%;
+	}
+	.canvas2{
+		z-index: 2;
+		background: transparent;
+		transform:rotate(-90deg); 
+		border:1px solid transparent;
+		border-radius: 50%;
+	}
+}

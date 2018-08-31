@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 66 77" style="enable-background:new 0 0 66 77;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#67D2FC;}
+	.st1{fill:#231916;}
+	.st2{fill:#D8D8D8;}
+</style>
+<title>Group 27</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="注册-验证成功" transform="translate(-540.000000, -355.000000)">
+		<g id="Group-27" transform="translate(541.000000, 357.000000)">
+			<g id="Fill-5">
+				<path class="st0" d="M26.5,26c-8,0-14.5,6.3-14.5,14.1v19.8C12,67.7,18.5,74,26.5,74h23.1c8,0,14.5-6.3,14.5-14.1V40.1
+					C64,32.3,57.5,26,49.5,26H26.5z"/>
+			</g>
+			<g id="Stroke-1">
+				<path class="st1" d="M18.5,26h-3V14.4c0-8.8,7.2-15.9,16-15.9c8.8,0,16,7.2,16,15.9h-3c0-7.1-5.8-12.9-13-12.9
+					c-7.2,0-13,5.8-13,12.9V26z"/>
+			</g>
+			<g id="Stroke-3">
+				<path class="st1" d="M49.5,75H14.5C6,75-1,68.2-1,59.9V40.1C-1,31.8,6,25,14.5,25h34.9C58,25,65,31.8,65,40.1v19.8
+					C65,68.2,58,75,49.5,75z M14.5,27C7.1,27,1,32.9,1,40.1v19.8C1,67.1,7.1,73,14.5,73h34.9C56.9,73,63,67.1,63,59.9V40.1
+					C63,32.9,56.9,27,49.5,27H14.5z"/>
+			</g>
+			<g id="Stroke-7">
+				<path class="st2" d="M38,44c0,3.3-2.7,6-6,6s-6-2.7-6-6c0-3.3,2.7-6,6-6S38,40.7,38,44z"/>
+				<path class="st1" d="M32,51c-3.9,0-7-3.1-7-7s3.1-7,7-7c3.9,0,7,3.1,7,7S35.9,51,32,51z M32,39c-2.8,0-5,2.2-5,5s2.2,5,5,5
+					c2.8,0,5-2.2,5-5S34.8,39,32,39z"/>
+			</g>
+			<g id="Stroke-9">
+				<rect x="30" y="49" class="st1" width="4" height="9"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

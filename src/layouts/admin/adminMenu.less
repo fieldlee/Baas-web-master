@@ -1,0 +1,51 @@
+@import "../../assets/less/base/variables/colors";
+
+.adminMenu {
+  background-color: @sider-bg;
+  .adminMenuCircle {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 8px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: @bg-white;
+  }
+  :global {
+    .ant-menu-hidden {
+      display: block!important;
+    }
+    .ant-menu-inline.ant-menu-sub {
+      box-shadow: none;
+      background-color: @sider-bg;
+    }
+    .ant-menu-submenu-open,
+    .ant-menu-submenu-open .ant-menu-inline.ant-menu-sub {
+      background-color: @sider-menu-dark-light;
+    }
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+      color: @text-white;
+      background-color: @sider-menu-hover;
+    }
+    .ant-menu-item {
+      height: 46px!important;
+      margin: 0 !important;
+      padding: 0 !important;
+      font-size: 14px!important;
+      line-height: 46px!important;
+      text-align: center;
+      color: @text-white!important;
+    }
+    .ant-menu-submenu-title {
+      height: 46px!important;
+      line-height: 46px!important;
+      font-size: 16px;
+      color: @text-white;
+      text-align: center;
+    }
+    .ant-menu-submenu-arrow {
+      display: none;
+    }
+
+  }
+}

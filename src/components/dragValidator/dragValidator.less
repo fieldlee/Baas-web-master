@@ -1,0 +1,44 @@
+:global {
+  @keyframes slidetounlock {
+    0% {
+      background-position: -200px 0
+    }
+    100% {
+      background-position: 200px 0
+    }
+  }
+  .dragContainer {
+    cursor: pointer;
+    position: relative;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background-color: #f7f8fa;
+    span {
+      background: gradient(linear, left top, right top, color-stop(0, #4d4d4d), color-stop(.4, #4d4d4d), color-stop(.5, #fff), color-stop(.6, #4d4d4d), color-stop(1, #4d4d4d));
+      text-fill-color: transparent;
+      animation: slidetounlock 3s infinite;
+    }
+  }
+  .drag {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #eee;
+    color: #b2b2b2;
+    background-color: #fff;
+  }
+  .dragSuccess {
+    color: #fff;
+    background-color: #7ac23c;
+
+    .drag {
+      color: #fff;
+      border-color: #7ac23c;
+      border-left-color: #eee;
+      background-color: #7ac23c;
+    }
+  }
+}

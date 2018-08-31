@@ -1,0 +1,44 @@
+@import "../../assets/less/base/variables/colors";
+.jModal {
+  display: flex;
+  align-items: center;
+  :global {
+    .ant-modal {
+      top: 0;
+    }
+    .ant-modal-header {
+      padding: 20px 30px 0;
+      border: 0 none;
+    }
+    .ant-modal-title {
+      font-size: 20px;
+      line-height: 28px;
+      color: @text-gray-dark;
+    }
+    .ant-modal-close-x {
+      width: 48px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 18px;
+    }
+    .ant-modal-body {
+      padding: 30px;
+    }
+
+    .ant-form-item {
+      display: flex;
+    }
+
+    .ant-form-item-label {
+      width: 56px;
+    }
+
+    .ant-form-item-control-wrapper {
+      flex: 1;
+    }
+
+    .ant-form-item-required:before {
+      display: none;
+    }
+  }
+}

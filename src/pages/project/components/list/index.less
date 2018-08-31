@@ -1,0 +1,104 @@
+.item {
+  background: #fff;
+  height: 194px;
+  padding: 24px 30px;
+  font-size: 16px;
+  position: relative;
+  margin-bottom: 14px;
+  :global {
+    .ant-btn {
+      width: 100px;
+      height: 36px;
+      font-size: 16px;
+      line-height: 36px;
+    }
+  }
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.itemAdd {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.itemContent {
+  display: flex;
+}
+
+.itemImg {
+  width: 56px;
+  height: 56px;
+}
+
+.itemDetail {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: #333;
+  line-height: 25px;
+}
+
+.status {
+  font-size: 16px;
+  color: #01a4ff;
+  line-height: 25px;
+}
+
+.info {
+  color: #999;
+  line-height: 19px;
+}
+
+.info > div {
+  margin-bottom: 10px;
+}
+
+.itemOpeation {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.itemOpeation > a {
+  display: block;
+  width: 50%;
+  line-height: 42px;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.itemDel {
+  color: #666;
+  line-height: 25px;
+  position: relative;
+}
+
+.itemDel:after {
+  content: '';
+  display: block;
+  height: 24px;
+  width: 1px;
+  background: #eee;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.itemEnter {
+  color: #01a4ff;
+}

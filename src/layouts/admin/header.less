@@ -1,0 +1,57 @@
+@import "../../assets/less/base/variables/colors";
+
+.header {
+  display: flex;
+  padding: 0 58px;
+  border-bottom: 1px solid #dedede;
+  background-color: @bg-white;
+}
+
+.nav {
+  flex: 1;
+}
+
+.navLink {
+  margin-right: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+  color: @text-gray-dark;
+  &.navLinkActive,
+  &:hover {
+    color: @text-blue;
+    text-decoration: none;
+  }
+}
+
+.headerDark {
+  background-color: @sider-bg;
+  .nav {
+    margin-left: 107px;
+  }
+  .navLink {
+    color: @text-white;
+    &.navLinkActive,
+    &:hover {
+      color: @text-blue;
+    }
+  }
+}
+
+.right {
+  display: flex;
+  float: right;
+  color: @text-white;
+}
+
+.name {
+  font-size: 16px;
+  color: @text-blue;
+}
+
+.sep {
+  display: inline-block;
+  height: 22px;
+  margin-left: 10px;
+  color: #eee;
+}

@@ -1,0 +1,383 @@
+@import '../assets/less/lunbo.less';
+
+@color: #01A4FF;
+:global {
+    .slick-slide img {
+        height: auto;
+    }
+    .slick-next,
+    .slick-prev {
+        top: 55%;
+    }
+}
+
+.ani() {
+    -webkit-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+}
+
+.title() {
+    font-size: 30px;
+    line-height: 29px;
+}
+
+.hover() {
+    background: @color;
+    color: #fff;
+}
+
+.bannerHover() {
+    background: #fff;
+    color: @color;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+
+
+.bannerWrap {
+    background: @color;
+    height: 530px;
+}
+
+.left {
+    color: #fff;
+    width: 535px;
+    position: absolute;
+    top: 159px;
+}
+
+.bannerTitle {
+    font-size: 45px;
+}
+
+.bannerDetail {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin: 11px 0 28px;
+}
+
+
+.exper {
+    display: block;
+    width: 162px;
+    line-height: 39px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    .ani();
+}
+
+.exper:hover {
+    .bannerHover()
+}
+
+.bannerImg {
+    width: 715px;
+    height: 491px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.banner {
+    position: relative;
+}
+
+.kindImg {
+    position: relative;
+}
+
+.kindImg>img {
+    margin: 0 auto;
+}
+
+.kindImg1 {
+    height: 102px!important;
+    animation: blockchainList 1s ease-out infinite alternate;
+}
+
+.kindImg2 {
+    width: 46px;
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: -18px;
+}
+
+.kindImg3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 12px;
+    animation: smallCube 1s ease-out infinite alternate;
+}
+
+@keyframes blockchainList {
+    0% {
+        transform: translateY(-4px);
+    }
+    100% {
+        transform: translateY(4px);
+    }
+}
+
+@keyframes smallCube {
+    0% {
+        transform: translateY(2px);
+    }
+    100% {
+        transform: translateY(-2px);
+    }
+}
+
+.introWrap {
+    position: relative;
+    margin-bottom: 59px;
+    height: 427px;
+}
+
+.introImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 719px;
+    height: 427px;
+    .ani()
+}
+
+.introImg:hover {
+    transform: scale(1.05);
+}
+
+.introInfo {
+    position: absolute;
+    top: 113px;
+    right: 0;
+    width: 622px;
+}
+
+.introInfoTilte {
+    margin-bottom: 26px;
+    .title()
+}
+
+.introDetail {
+    font-size: 16px;
+    color: #666;
+    line-height: 37px;
+}
+
+.solutionWrap {
+    background: @color;
+    color: #fff;
+}
+
+.solution {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 440px;
+}
+
+.solutionTitle {
+    .title()
+}
+
+.solutionSub {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 19px 0 54px;
+}
+
+.solutionContent {
+    display: flex;
+}
+
+.strokeImg {
+    height: 154px;
+    margin: 5px 31px 0 34px;
+}
+
+.contentLeftTitle {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 25px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, .7);
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 6px;
+    opacity: 0;
+}
+
+.contentLeftTitle.active {
+    color: #fff;
+}
+
+.contentLeftTitle.active .circle {
+    opacity: 1;
+}
+
+.contentRigth {
+    width: 370px;
+}
+
+.sloutionMore {
+    color: #fff;
+    margin-top: 4px;
+    line-height: 30px;
+    .ani()
+}
+
+.sloutionMore:hover {
+    color: #fff;
+    margin-left: 4px;
+}
+
+.contentRigth {
+    line-height: 28px;
+}
+
+.docWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.docItem {
+    width: 270px;
+    line-height: 50px;
+    border: 1px solid #ECECEC;
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    font-size: 16px;
+    .ani()
+}
+
+.docItem:hover {
+    border: 1px solid @color;
+    color: @color;
+}
+
+.docWrap {
+    margin: 60px 0;
+}
+
+.footerTitle {
+    .title()
+}
+
+.footerIntro {
+    width: 535px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footerDetail {
+    font-size: 16px;
+    color: #666;
+    line-height: 29px;
+    margin: 20px 0 19px;
+}
+
+.atOnce {
+    width: 162px;
+    line-height: 39px;
+    border: 1px solid #01A4FF;
+    color: @color;
+    margin: 0 auto 60px;
+    display: block;
+    .ani()
+}
+
+.atOnce:hover {
+    .hover()
+}
+
+
+
+.contentIcon {
+    margin: 5px 0 14px 0;
+}
+
+.kinds {
+    display: flex;
+}
+
+.kindInfo {
+    text-align: center;
+}
+
+.kindTitle {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 30px 0 3px 0;
+    font-weight: bold;
+}
+
+.kindSub {
+    color: #666666;
+    line-height: 25px;
+}
+
+.kindItem {
+    width: 25%;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    margin-top: 5px;
+    height: 210px;
+    
+}
+
+.kind {
+    display: flex;
+    width: 1020px;
+    margin: 50px auto 40px;
+}
+
+.kindDetail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    padding: 10px;
+    opacity: 0;
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: -5px;
+    transform: scale(1.1, 1.1);
+    z-index: 2;
+    box-shadow: 0 0 10px 0 rgba(229,229,229,0.50);
+    height: 210px;
+    .ani();
+}
+.kindShow{
+  z-index: 1;
+  transition: all .3s;
+}
+
+.kindItem:hover .kindShow {
+    opacity: 0;
+    transform: scale(.4);
+}
+.kindItem:hover .kindDetail {
+    transform: scale(1);
+    opacity: 1;
+    transition: all .3s;
+}

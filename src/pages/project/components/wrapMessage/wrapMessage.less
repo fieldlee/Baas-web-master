@@ -1,0 +1,35 @@
+@import "../../../../assets/less/base/variables/colors";
+
+.wrapMessage {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 42px;
+  margin-left: 0;
+  margin-top: -18px;
+  padding: 8px 16px;
+  box-shadow: 0 0 10px 0 rgba(229, 229, 229, .85);
+  line-height: 20px;
+  color: @text-gray-900;
+  background: #fff;
+  &:after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    border: solid transparent;
+    width: 0;
+    height: 0;
+  }
+  &:after {
+    border-right-color: #fff;
+    border-width: 8px;
+    margin-top: -8px;
+  }
+}
+
+.wrapMessageContent {
+  margin: 0;
+  padding-left: 25px;
+  background: url(../../../../assets/images/formHelperPanel/error.png) no-repeat 0 0;
+}

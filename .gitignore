@@ -1,0 +1,10 @@
+# tools
+.idea/
+*.iml
+
+# deps
+node_modules
+
+# build
+dist/
+.umi/

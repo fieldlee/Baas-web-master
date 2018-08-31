@@ -1,0 +1,93 @@
+@import "../../assets/less/base/variables/colors";
+.centerWrap {
+  background: #fff;
+  width: 800px;
+  margin: 60px auto;
+  .panelContent {
+    display: flex;
+    .text {
+      flex: 1;
+      color: @text-gray-dark;
+    }
+  }
+  .arrow {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: @text-blue;
+    .arrowIcon {
+      margin-left: 5px;
+      font-size: 10px;
+    }
+  }
+  .add {
+    flex: 1;
+    color: @text-blue;
+  }
+  :global {
+    .ant-collapse-item-active {
+      :local {
+        .arrowIcon:before {
+          content: '\E607';
+        }
+      }
+    }
+    .ant-collapse-content {
+      border-top: 1px solid transparent;
+    }
+    .ant-collapse {
+      border: none;
+      font-size: 16px;
+      color: #333;
+    }
+    .ant-collapse > .ant-collapse-item.ant-collapse-no-arrow > .ant-collapse-header {
+      padding-left: 0;
+    }
+    .ant-collapse-content {
+
+    }
+    .ant-form-item-label label {
+      text-align: left;
+      font-size: 14px;
+      color: @text-gray-600;
+    }
+    .ant-collapse > .ant-collapse-item {
+      position: relative;
+    }
+    .ant-collapse > .ant-collapse-item:last-child {
+      border-bottom: 0;
+    }
+    .ant-form-item-required:before {
+      display: none;
+    }
+    .ant-row {
+      clear: both;
+    }
+  }
+
+}
+
+.panelTitle {
+  font-size: 16px;
+  color: @text-gray-600;
+}
+
+.title {
+  line-height: 58px;
+  border-bottom: 1px solid #cbcbcb;
+  font-size: 16px;
+  color: @text-gray-dark;
+  text-align: center;
+}
+
+.centerInfo {
+  padding: 0 40px;
+}
+
+.comfire {
+  width: 140px;
+}
+.centerName {
+  padding: 12px 0;
+  border-bottom: 1px solid #ededed;
+}

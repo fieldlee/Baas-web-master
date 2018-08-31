@@ -1,0 +1,39 @@
+@import "../../assets/less/base/variables/colors";
+
+.projectMenu {
+  background-color: @sider-bg;
+  :global {
+    .ant-menu-item {
+      height: 46px;
+      font-size: 16px;
+      line-height: 46px;
+      text-align: center;
+      color: @text-white;
+    }
+    .ant-menu-item:hover,
+    .ant-menu-item-selected {
+      background-color: @sider-menu-hover!important;
+    }
+    .icon {
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      margin-right: 8px;
+      vertical-align: text-bottom;
+      line-height: 22px;
+      background: transparent no-repeat 50% 50%;
+    }
+    .iconProjectInfo {
+      background-image: url(../../assets/images/project/menu/info.png);
+    }
+    .iconProjectConfig {
+      background-image: url(../../assets/images/project/menu/config.png);
+    }
+    .iconProjectChainCode {
+      background-image: url(../../assets/images/project/menu/chaincode.png);
+    }
+    .iconProjectMaintain {
+      background-image: url(../../assets/images/project/menu/maintain.png);
+    }
+  }
+}

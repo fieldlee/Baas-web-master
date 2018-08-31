@@ -1,0 +1,32 @@
+{
+  "name": "jbaas",
+  "version": "1.0.0",
+  "description": "JBaaS static files.",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.22.2",
+    "react-draggable": "^3.0.5",
+    "react-router-dom": "^4.3.1",
+    "react-slick": "^0.23.1",
+    "react-transition-group": "^2.4.0",
+    "recharts": "^1.1.0",
+    "slick-carousel": "^1.8.1",
+    "umi-plugin-dva": "^0.9.1"
+  },
+  "devDependencies": {
+    "umi": "^1.3.16",
+    "umi-plugin-react": "^1.0.0-beta.17",
+    "umi-plugin-routes": "^0.1.5"
+  },
+  "scripts": {
+    "dev": "PORT=4001 ./node_modules/umi/bin/umi.js dev",
+    "build": "./node_modules/.bin/umi build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://42.51.64.22/wushaojie/jbaas.git"
+  },
+  "author": "",
+  "license": "MIT"
+}

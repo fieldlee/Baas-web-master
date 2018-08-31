@@ -1,0 +1,22 @@
+@import "../../assets/less/base/variables/colors";
+
+.counter {
+  :global {
+    .ant-btn:not(.ant-btn-circle):not(.ant-btn-circle-outline).ant-btn-icon-only {
+      padding: 0;
+    }
+    .ant-btn {
+      width: 36px;
+      height: 36px;
+    }
+  }
+}
+
+.count,
+.counterBtn {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border: 1px solid @border-gray;
+  background-color: @bg-white;
+}
